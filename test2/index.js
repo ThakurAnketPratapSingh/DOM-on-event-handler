@@ -2,4 +2,6 @@ function myFunction() {
     var x = document.getElementById("myText").value;
     alert(x);
 }
-button.addEventListener('click', myFunction);
+
+const button = document.querySelector('button')
+button.addEventListener('click', myFunction)
